@@ -1,0 +1,13 @@
+# Trusted Execution Environment Configuration
+config TRUSTKERNEL_TEE_SUPPORT
+	bool "TrustKernel Trusted Execution Environment Support"
+	default n
+	---help---
+	  This implements TrustKernel TKcore Linux Driver.
+
+config TRUSTKERNEL_TEE_RPMB_SUPPORT
+	bool "TrustKernel Trusted Execution Environment RPMB Support"
+	default n
+	---help---
+	  This implements TrustKernel TKcore Linux Driver Replay Protected
+	  Memory Block function.

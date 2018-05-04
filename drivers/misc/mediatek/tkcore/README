@@ -1,0 +1,4 @@
+TrustKernel TEE Linux Driver.
+
+Provide support for TEE-OS, and interfaces for Client Applications to
+communicate with TEE-OS and Trusted Applications.

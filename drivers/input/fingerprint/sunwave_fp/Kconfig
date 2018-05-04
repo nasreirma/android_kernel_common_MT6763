@@ -1,0 +1,8 @@
+config MTK_FINGERPRINT_SUNWAVE
+	bool "sunwave(sunwave fingerprint sensor)  for dewav"
+	default n
+	help
+	It support different type sensor
+	in this platform. If this option
+	is set, it will support fingerprint sunwave silead sensor .
+
